@@ -74,6 +74,7 @@ hr.line3 {
 
 input[type="text"],
 input[type="email"],
+input[type="telephone"],
 textarea,
 select {
   border: none;
@@ -151,13 +152,13 @@ footer {
 
   input[type="text"],
   input[type="email"],
+  input[type="telephone"],
   #state {
-    max-width: 60%;
+    max-width: 55%;
     margin-top: 5px;
     margin-bottom: 5px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 20px;
   }
   form label option,
   input[type="radio"],
@@ -172,6 +173,7 @@ footer {
   label {
     display: inline-block;
     margin-top: 5px;
-    width: 30%;
+    width: 39%;
+    margin-left: 10px;
   }
 }
